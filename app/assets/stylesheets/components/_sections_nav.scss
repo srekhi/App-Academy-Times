@@ -1,0 +1,25 @@
+.section-links {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  width: 80%;
+}
+.section-links > ul{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  border-bottom: 1px solid $lightest_gray;
+  justify-content: space-between;
+}
+
+.section-links > ul li {
+  font-size: 10px;
+  padding: 5px;
+  // width: 10px;
+}
+
+.section-links a:hover {
+  background-color: $lightest_gray;
+  text-decoration: underline;
+
+}

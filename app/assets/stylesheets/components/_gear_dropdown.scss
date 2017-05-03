@@ -1,0 +1,25 @@
+// Use the gear_dropdown.png screenshot as a style guide
+#gear-dropdown {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+  border: 1px solid black;
+  padding: 2px;
+  width: 100px;
+  z-index: 1;
+  background-color: white;
+}
+
+#gear-dropdown span, ul li {
+  font-size: 12px;
+}
+
+#gear-dropdown span {
+  font-weight: bold;
+}
+
+#gear-dropdown ul li {
+  color: gray;
+  margin: 5px 0;
+
+}
